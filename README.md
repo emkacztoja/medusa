@@ -40,7 +40,7 @@ Medusa is a phishing tool script designed to create phishing pages for various o
 2. Navigate to the script directory: `cd medusa`
 3. Ensure all dependencies are installed and configured (see Dependencies section).
 4. Grants execution permissions to medusa_phisher script: `chmod +x  medusa.sh`
-5. Grants execution permissions to setup script: `chmod +x  setup.sh`
+5. Grants execution permissions to setup script: `chmod +x setup.sh`
 6. The script installs the required dependencies for running the Medusa Phisher script: `sudo ./setup.sh`
 7. Run the script: `sudo ./medusa.sh`
 8. Follow the on-screen menu to select a phishing target and start the phishing process. NOTE:The link is generated in the xterm terminal with a QR code too.
