@@ -1,6 +1,5 @@
 # Medusa Phisher v1.3
 Medusa Phisher is a phishing tool script designed to create phishing pages for various online services. It allows users to set up phishing pages for services like Instagram, Facebook, Twitter, and more. The script facilitates hosting these phishing pages using localhost.run for tunnelling, making it easy to capture user credentials.
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/4bdc1c9b-497b-4094-9074-b291071341ca" />
 
 # Features
 1. Create phishing pages for multiple online services.
@@ -37,18 +36,14 @@ Medusa Phisher is a phishing tool script designed to create phishing pages for v
 
 # Usage
 
-1. Clone the repository: `git clone https://github.com/Adrilaw/MedusaPhisher.git`
-2. Navigate to the script directory: `cd MedusaPhisher`
+1. Clone the repository: `git clone https://github.com/emkacztoja/medusa.git`
+2. Navigate to the script directory: `cd medusa`
 3. Ensure all dependencies are installed and configured (see Dependencies section).
-4. Grants execution permissions to medusa_phisher script: `chmod +x  medusa_phisher.sh`
+4. Grants execution permissions to medusa_phisher script: `chmod +x  medusa.sh`
 5. Grants execution permissions to setup script: `chmod +x  setup.sh`
 6. The script installs the required dependencies for running the Medusa Phisher script: `sudo ./setup.sh`
-7. Run the script: `sudo ./medusa_phisher.sh`
+7. Run the script: `sudo ./medusa.sh`
 8. Follow the on-screen menu to select a phishing target and start the phishing process. NOTE:The link is generated in the xterm terminal with a QR code too.
-
-# Demo
-
-https://github.com/user-attachments/assets/43fcf6f2-987a-4f8c-91da-56efaff2258f
 
 
 
@@ -62,9 +57,7 @@ https://github.com/user-attachments/assets/43fcf6f2-987a-4f8c-91da-56efaff2258f
 This script is intended for educational purposes only. The misuse of this tool for illegal activities is strictly prohibited. The author assumes no responsibility for any misuse of this script.
 
 # Author
-Adrilaw @ GitHub
-
-Kidpentester @ xda-developers
+Emkacztoja | Aleksander Kowalczuk @ GitHub
 
 # License
 MedusaPhisher is licensed under the [GNU General Public License](LICENSE) and the [MedusaPhisher Commercial License](C-LICENSE)- see the LICENSE file for details.

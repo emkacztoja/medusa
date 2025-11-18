@@ -130,7 +130,7 @@ sleep 3
 
 open_page() {
 
-    url="https://github.com/Adrilaw"
+    url="https://github.com/emkacztoja"
 
     open "$url"
 
@@ -259,7 +259,7 @@ echo "                         | |\/| |/ _ \/ _\`| | | / __|/ _\`| | |_) | '_ \|
 
 echo "                         | |  | |  __/ (_| | |_| \__ \ (_| | |  __/| | | | \__ \ | | |  __/ |  "  
 
-echo "                         |_|  |_|\___|\__,_|\__,_|___/\__,_| |_|   |_| |_|_|___/_| |_|\___|_|  CODED BY: Adrilaw Github: https://github.com/Adrilaw"
+echo "                         |_|  |_|\___|\__,_|\__,_|___/\__,_| |_|   |_| |_|_|___/_| |_|\___|_|  CODED BY: emkacztoja Github: https://github.com/emkacztoja"
 
 echo -e "\e[1;33m"
 
@@ -303,7 +303,7 @@ printf "\e[1;92m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;91m Microsoft\e[0m      
 
 # Add the coded by line
 
-printf "                                                \e[1;94m CODED BY: @Adrilaw  CREDIT TO FOR SITES TEMPLETE: https://github.com/8L4NK/blackeye/\e[0m\n"
+printf "                                                \e[1;94m CODED BY: @emkacztoja  CREDIT TO FOR SITES TEMPLATE: https://github.com/8L4NK/blackeye/\e[0m\n"
 
 
 
