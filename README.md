@@ -37,7 +37,7 @@ Medusa is a phishing tool script designed to create phishing pages for various o
 # Usage
 
 1. Clone the repository: `git clone https://github.com/emkacztoja/medusa.git`
-2. Navigate to the script directory: `cd medusa`
+2. Navigate to the script directory: `cd medusa` 
 3. Ensure all dependencies are installed and configured (see Dependencies section).
 4. Grants execution permissions to medusa_phisher script: `chmod +x  medusa.sh`
 5. Grants execution permissions to setup script: `chmod +x setup.sh`
