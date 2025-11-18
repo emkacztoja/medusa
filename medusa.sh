@@ -853,7 +853,7 @@ start() {
         fi
 
 
-
+        #comment out whole block below if not using custom key file
         # if you have a custom key file, place it in the same directory as this script and name it "localrun"
         KEY_FILE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/localrun"
         chmod 600 "$KEY_FILE"
