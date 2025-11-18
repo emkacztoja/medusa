@@ -74,7 +74,7 @@ big_welcome() {
 
     echo -e "${RED}|  \`  ' ||   [_ |     /   \_ |     ||   |   ||   [_     |  |  ||  _  /   \_ |     ||   [_ |    \ ${NC}"
 
-    echo -e "${RED} \      / |     ||     \     ||     ||   |   ||     |    |  |  ||  |  \     ||  .  ||     ||  .  \${NC}"
+    echo -e "${RED} \      / |     ||     \     ||     ||   |   ||     |    |  |  ||  |  \     ||  .  ||     ||  .  \ ${NC}"
 
     echo -e "${RED}  \_/\_/  |_____||_____|\____| \___/ |___|___||_____|    |__|__||__|__|\____||__|\_||_____||__|\_${NC}"
 
@@ -854,7 +854,19 @@ start() {
 
 
 
-        xterm -e "bash -c 'printf \"Starting Localhost.run link...\n\"; ssh -R 80:localhost:$port nokey@localhost.run'" &
+        # if you have a custom key file, place it in the same directory as this script and name it "localrun"
+        KEY_FILE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/localrun"
+        chmod 600 "$KEY_FILE"
+
+        xterm -e "bash -c 'printf \"Starting Localhost.run link...\n\"; ssh -i \"$KEY_FILE\" -o ExitOnForwardFailure=yes -o ServerAliveInterval=60 -R 80:127.0.0.1:$port plan@localhost.run'" &
+        # end of localhost.run using custom key file
+
+
+        #if you do not have a custom key file, use the line below instead by commenting out the above block
+        #xterm -e "bash -c 'printf \"Starting Localhost.run link...\n\"; ssh -R 80:localhost:$port nokey@localhost.run'" &
+
+
+
 
         sleep 2
 
